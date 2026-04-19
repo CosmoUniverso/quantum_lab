@@ -1,6 +1,18 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Quantum Lab Specific
 *.log
+experiments/__pycache__/
