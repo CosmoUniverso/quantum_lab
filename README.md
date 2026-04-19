@@ -21,7 +21,7 @@ Il progetto utilizza:
 L’obiettivo è studiare materiali reali (Diamante, Acciaio Fe–C, superfici di Platino) entro i limiti di una GPU RTX 3060, raggiungendo fino a **26–28 qubit** in modo stabile.
 
 ## Installazione (WSL2)
-```bash
+
 conda create -n qpu python=3.11
 conda activate qpu
 pip install qiskit qiskit-aer-gpu qiskit-nature qiskit-algorithms pyscf
@@ -32,7 +32,7 @@ export CUQUANTUM_ROOT=$CONDA_PREFIX
 Licenza
 Questo progetto è distribuito sotto licenza GNU Affero General Public License v3.0 (AGPL-3.0).
 
-US Description
+# US Description
 Quantum-Material-Lab-GPU is a research environment for:
 
 quantum chemistry,
